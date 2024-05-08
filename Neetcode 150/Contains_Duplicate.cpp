@@ -1,7 +1,5 @@
 // https://leetcode.com/problems/contains-duplicate/
 
-#include <bits/stdc++.h>
-
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
