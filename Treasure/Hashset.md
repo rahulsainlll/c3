@@ -188,7 +188,7 @@ By understanding these basics and applying them, you can effectively utilize `un
 
 
 
-### unordered_set
+# unordered_set
 
 n C++, a hash set is implemented using the unordered_set container from the Standard Template Library (STL). The unordered_set is a collection that contains unique elements, which means no duplicate values are allowed, and it provides average time complexity of O(1) for insertion, deletion, and lookup operations.
 
