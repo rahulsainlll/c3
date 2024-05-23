@@ -99,3 +99,12 @@ Vectors in C++ are part of the Standard Template Library (STL). They're a dynami
    - Utilize features like `emplace_back` to construct objects in-place, which can save on copy overhead.
 
 I hope this gives you a good understanding of how to use vectors and their role in DSA. If you have any specific questions or want details on a particular concept, let me know!
+
+
+
+
+
+
+
+
+
