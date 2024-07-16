@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int n;
+    long long n;
     vector<int> r;
     cin >> n;
     r.push_back(n);
