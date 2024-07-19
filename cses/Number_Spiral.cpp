@@ -1,4 +1,5 @@
 // https://cses.fi/problemset/task/1071
+// not completed
 
 #include <bits/stdc++.h>
 using namespace std;
