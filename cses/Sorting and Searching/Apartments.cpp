@@ -16,16 +16,17 @@ int main() {
     sort(a.begin(), a.end());
     sort(b.begin(), b.end());
     
-    for(int i = 0; i<n;i++){
-        for (int j = 0; j < m; j++) {
-            if(a[i] == b[j] || abs(a[i] - b[j]) <= k){
-                c++;
-                b.erase(b.begin() + j);
-                break;
-            }
+    int i= 0,j=0;
+    
+    while(i<n&&j<m){
+        if(a[i]+k <b[j]) i++;
+        else if(a[i]-k >b[j]) j++;
+        else{
+            c++;i++;j++;
         }
         
     }
+    
     cout<<c;
 
     return 0;
