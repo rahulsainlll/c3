@@ -16,7 +16,7 @@ int main() {
     int sum = a[0];
     
     while(j<n){
-        if(){
+        if(a[a]){
             
         }
         else if( (sum + a[j]) <= x ) {sum+=a[j]; sum = a[j]; j++; c++;}
